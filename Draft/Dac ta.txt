@@ -1,21 +1,27 @@
-﻿Version 1
+﻿Version 1 
 
 Hệ thống thông tin quản lý nhà hàng 
 
-Giới thiệu 
+I.Mô tả bài toán và cách giải quyết vấn đề
+	1.Tổ chức hoạt động
+	
+	Nhà hàng Hương Phố là một nhà hàng nổi tiếng đã được nhiều người biết tới từ rất lâu ở đường Phan Văn Trị thuộc thành phố Hồ Chí Minh. Nhà hàng gồm hai tòa nhà được thiết kế với hai tầng quay ra mặt đường đối diện nhau qua đường chính Phan Văn Trị, có hầm để xe cho khách đi xe máy và cả xe hơi. Điểm đặc biệt khiến nhà hàng Hương Phố khác biệt với các nhà hàng khác đó chính là cây cầu để bắc qua hai tòa nhà, giúp cho khách có thể đi qua lại giữ hai tòa nhà một cách dễ dàng, tránh phải đi qua đường nguy hiểm vào giờ cao điểm.
 
-Nhà hàng Hương Phố là một nhà hàng nổi tiếng đã được nhiều người biết tới từ rất lâu ở đường Phan Văn Trị thuộc thành phố Hồ Chí Minh. Nhà hàng gồm hai tòa nhà được thiết kế với hai tầng quay ra mặt đường đối diện nhau qua đường chính Phan Văn Trị, có hầm để xe cho khách đi xe máy và cả xe hơi. Điểm đặc biệt khiến nhà hàng Hương Phố khác biệt với các nhà hàng khác đó chính là cây cầu để bắc qua hai tòa nhà, giúp cho khách có thể đi qua lại giữ hai tòa nhà một cách dễ dàng, tránh phải đi qua đường nguy hiểm vào giờ cao điểm.
+	Nhà hàng có hai tầng, với cách bài trí với không gian rộng lớn. Mỗi tầng sẽ có hàng lang, mỗi phòng được cách nhau một khoảng nhất định, mỗi phòng bên trong sẽ có diện tích rộng lớn, với gồm những dãy bàn dọc với nhau và một sân khấu lớn ở cuối phòng. Bên trong các phòng sẽ có một quầy bar nhỏ để cho khách hàng có thể đế thưởng thức café, rượu các loại tại quầy, hoặc nếu muốn yên tĩnh khách có thể lên sân thượng phía trên để ngắm cảnh đường phố và phi trường sân bay với một quán café riêng biệt bên trên.
 
-Nhà hàng có hai tầng, với cách bài trí với không gian rộng lớn. Mỗi tầng sẽ có hàng lang, mỗi phòng được cách nhau một khoảng nhất định, mỗi phòng bên trong sẽ có diện tích rộng lớn, với gồm những dãy bàn dọc với nhau và một sân khấu lớn ở cuối phòng. Bên trong các phòng sẽ có một quầy bar nhỏ để cho khách hàng có thể đế thưởng thức café, rượu các loại tại quầy, hoặc nếu muốn yên tĩnh khách có thể lên sân thượng phía trên để ngắm cảnh đường phố và phi trường sân bay với một quán café riêng biệt bên trên.
+	Mỗi tầng của nhà hàng bao gồm hai phòng thường và một phòng vip, hai phòng thường mỗi phòng 20-30 bàn cho việc tổ chức sinh nhật, những buổi tất niên nhỏ. Còn phòng vip từ 60-100 bàn với quy mô cho tổ chức đám cưới, tiệc họp mặt, hội thảo nghiên cứu.
+	Tổ chức nhà hàng có : 2 thu ngân, 8 quản lý, 30 tiếp tân và 200 phục vụ luân phiên nhau mỗi ngày khi có tổ chức tiệc ở cả hai nhà hàng.
 
-Mỗi tầng của nhà hàng bao gồm hai phòng thường và một phòng vip, hai phòng thường mỗi phòng 20-30 bàn cho việc tổ chức sinh nhật, những buổi tất niên nhỏ. Còn phòng vip từ 60-100 bàn với quy mô cho tổ chức đám cưới, tiệc họp mặt, hội thảo nghiên cứu.
-Tổ chức nhà hàng có : 2 thu ngân, 8 quản lý, 30 tiếp tân và 200 phục vụ luân phiên nhau mỗi ngày khi có tổ chức tiệc ở cả hai nhà hàng.
-
-Quy trình nghiệp vụ:
+	2.Quy trình nghiệp vụ:
 	•	Hai nhà hàng sẽ phân ra mỗi nhà hàng sẽ có 4 người quản lý, mỗi tầng của nhà hàng sẽ có 2 người quản lý phụ trách 3 phòng của nhà hàng. Trong 2 người quản lý đó, sẽ có 1 người quản lý về việc đặt phòng, đặt bàn, ký xác nhận thuê mướn hỗ trợ cho khách đặt các trang thiết bị bao gồm âm thanh, ánh sáng,…người còn lại sẽ quản lý về nhân viên, phân bố nhân viên vào mỗi bàn khi có tiệc, quản lý bếp, nhà kho, phòng tiệc, sắp xếp lên danh sách menu thực đơn gợi ý cho khách đặt tiệc, và phân bố sắp xếp vị trí từ bàn ghế, các dụng cụ, cách trang trí phòng như thế nào cho hợp mỗi nhu cầu của khách đặt tiệc.
+	
 	•	Khi khách đặt tiệc đến sẽ gặp quản lý đặt tiệc trước, quản lý đặt tiệc sẽ lấy ghi phiếu yêu cầu của khách hàng về số lượng bàn, ước tính bao nhiêu người tham dự, ước tính tổng chi phí cả buổi tiệc là bao nhiêu,…sau đó khách gặp quản lý buổi tiệc sẽ bàn về thực đơn, cách bố trí phòng tiệc sẽ như thế nào, nhu cầu cần bao nhiêu nhân viên để phục vụ,…
+	
 	•	Sau khi đã lấy yêu cầu xong, cả 2 quản lý đặt tiệc và phòng tiệc sẽ bàn giao phiếu yêu cầu 1 cái cho bên phục vụ,tiếp tân , 1 cái cho cho bên nhà bếp, 1 cái cho bên thu ngân.
 	•	Nếu trong quá trình diễn ra tiệc, nếu khách đặt tiệc cần thêm bàn thì nhà hàng sẽ ghi một phiếu mới và đính kèm chung với phiếu cũ.
+	
 	•	Nhân viên thu ngân sử dụng chương trình trên máy tính để tính tiền toàn bộ chi phí buổi tiệc mà khách hàng đã đặt, in hóa đơn chi tiết, trên hóa đơn có thanh toán có ghi ngày giờ thanh toán, tên quản lý lấy yêu cầu khách hàng.
+	
 	•	Quản lý đặt tiệc sẽ đem hóa đơn đó đưa cho khách đặt, nếu khách không có gì thắc mắc thì khách sẽ trả tiền cọc trước 50% cho nhà hàng, để nhà hàng lên kế hoạch chuẩn bị tiệc, 50% còn lại sẽ trả sau buổi tiệc kết thúc. Quản lý đặt tiệc sẽ đem tiền và hóa đơn vào cho quầy thu ngân, nhân viên thu ngân đóng dấu đã thanh toán một nửa vào hóa đơn và xác nhận với quản lý lên kế hoạch chuẩn bị.
+	
 	•	Hầu hết các nghiệp vụ quản lý và thanh toán đều được thực hiện theo cách thủ công, gây chậm trễ, phức tạp, nhiêu khê cho khách đặt tiệc.
