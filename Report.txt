@@ -1,0 +1,24 @@
+﻿Thong
+	- Job 1 - Tiến độ (%)
+	- Job 2 - Tiến độ (%)
+	
+Thanh
+	- Job 1 - Tiến độ (%)
+	- Job 2 - Tiến độ (%)
+	
+Phuc
+	- Job 1 - Tiến độ (%)
+	- Job 2 - Tiến độ (%)
+	
+Cam
+	- Job 1 - Tiến độ (%)
+	- Job 2 - Tiến độ (%)
+	
+Nhat
+	- Job 1 - Tiến độ (%)
+	- Job 2 - Tiến độ (%)
+	
+Khanh
+	- Job 1 - Tiến độ (%)
+	- Job 2 - Tiến độ (%)
+	
